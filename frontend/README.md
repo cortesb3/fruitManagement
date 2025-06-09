@@ -1,12 +1,51 @@
-# React + Vite
+# My HTML/CSS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple web application that demonstrates the use of HTML, CSS, and JavaScript. Below are the details on how to set up and run the project.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+my-html-css-project
+├── src
+│   ├── index.html       # Main HTML document
+│   ├── css
+│   │   └── styles.css   # Styles for the HTML document
+│   └── js
+│       └── main.js      # JavaScript code for interactivity
+└── README.md            # Project documentation
+```
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+   ```
+   git clone <repository-url>
+   ```
+
+2. **Navigate to the project directory**:
+   ```
+   cd my-html-css-project
+   ```
+
+3. **Open the `index.html` file** in your web browser to view the application.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Features
+
+- Responsive design
+- Interactive elements using JavaScript
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.

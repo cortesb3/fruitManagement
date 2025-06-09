@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Fruit-themed color palette */
+:root {
+    --color-apple: #E63946;
+    --color-banana: #F4D35E;
+    --color-kiwi: #A8D5BA;
+    --color-plum: #6D597A;
+}
+
+/* Header and Footer */
+.header, .footer {
+    background: var(--color-kiwi);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #e8491d;
+}
+
+/* Main container adjustments */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Section cards */
+.add-fruit, .fruit-list-section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+#fruit-form {
+    display: flex;
+    gap: 10px;
+}
+
+#fruit-form input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid var(--color-kiwi);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#fruit-form button {
+    background: var(--color-plum);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#fruit-form button:hover {
+    background: darken(var(--color-plum), 10%);
+}
+
+/* Fruit list */
+#fruit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#fruit-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease;
+}
+
+#fruit-list li:nth-child(odd) {
+    background: var(--color-apple);
+    color: #ffffff;
+}
+
+#fruit-list li:nth-child(even) {
+    background: var(--color-banana);
+    color: #333333;
+}
+
+#fruit-list li:hover {
+    transform: scale(1.02);
+}
+
+#fruit-list button.remove {
+    background: var(--color-plum);
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+#fruit-list button.remove:hover {
+    opacity: 0.8;
+}
